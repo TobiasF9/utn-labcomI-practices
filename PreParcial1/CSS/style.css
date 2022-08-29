@@ -1,0 +1,33 @@
+* {
+    font-family: 'Lato', sans-serif;
+    
+}
+
+body {
+    display: flex;
+}
+
+li {
+    display: inline-flex;
+}
+
+li:hover {
+    border-bottom-color: rgb(225, 225, 130);
+}
+
+li:hover a {
+    border-bottom-color: rgb(225, 225, 130);
+}
+
+nav:hover {
+    background-color: black;
+}
+
+/*nav {
+    
+}
+
+img.logo {
+    
+}
+*/
