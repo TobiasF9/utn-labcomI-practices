@@ -4,8 +4,58 @@
 }
 
 body {
-    display: flex;
+    /*display: flex;*/
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+
+header {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.logo {
+    height: 40px;
+    padding: 10px;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+header nav ul li {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #6e6e6e;
+}
+
+
 
 li {
     display: inline-flex;
